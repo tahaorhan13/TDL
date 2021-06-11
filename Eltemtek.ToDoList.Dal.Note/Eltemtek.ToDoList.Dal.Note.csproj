@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Eltemtek.ToDoList.Entity.Note\Eltemtek.ToDoList.Entity.Note.csproj" />
+    <ProjectReference Include="..\Eltemtek.ToDoList.Entity\Eltemtek.ToDoList.Entity.Account.csproj" />
   </ItemGroup>
 
 </Project>

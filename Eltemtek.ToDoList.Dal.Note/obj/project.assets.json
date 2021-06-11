@@ -8226,6 +8226,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Eltemtek.ToDoList.Entity.Account >= 1.0.0",
       "Eltemtek.ToDoList.Entity.Note >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.6"
     ]
@@ -8238,11 +8239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Dal.Note\\Eltemtek.ToDoList.Dal.Note.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Dal.Note\\Eltemtek.ToDoList.Dal.Note.csproj",
       "projectName": "Eltemtek.ToDoList.Dal.Note",
-      "projectPath": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Dal.Note\\Eltemtek.ToDoList.Dal.Note.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Dal.Note\\Eltemtek.ToDoList.Dal.Note.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Dal.Note\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Dal.Note\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -8264,8 +8265,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Entity.Note\\Eltemtek.ToDoList.Entity.Note.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Entity.Note\\Eltemtek.ToDoList.Entity.Note.csproj"
+            "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Entity.Note\\Eltemtek.ToDoList.Entity.Note.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Entity.Note\\Eltemtek.ToDoList.Entity.Note.csproj"
+            },
+            "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.Account.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Entity\\Eltemtek.ToDoList.Entity.Account.csproj"
             }
           }
         }

@@ -1875,6 +1875,7 @@
       },
       "Eltemtek.ToDoList.Dal.Note/1.0.0": {
         "dependencies": {
+          "Eltemtek.ToDoList.Entity.Account": "1.0.0",
           "Eltemtek.ToDoList.Entity.Note": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.6"
         },

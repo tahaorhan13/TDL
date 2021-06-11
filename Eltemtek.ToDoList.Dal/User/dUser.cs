@@ -5,40 +5,38 @@ using System.Linq;
 
 namespace Eltemtek.ToDoList.Dal.Account
 {
-    public class dUser:dCore
+    public class dUser : dCore
     {
-        public dUser(DbEntities db):base(db)
+        public dUser(DbEntities db) : base(db)
         {
-                //
+            //
         }
         public rUser Add(pUser args)
         {
             try
             {
-                using (DbEntities db = new DbEntities())
+                if (!Has(args.Email))
+                    return new rUser { Error = true, Message = "Kullanıcı zaten kayıtlı" };
+                TblUser user = new TblUser()
                 {
-                    if (!Has(args.Email))
-                        return new rUser { Error = true, Message = "Kullanıcı zaten kayıtlı" };
-                    TblUser user = new TblUser()
-                    {
-                        Name = args.Name,
-                        Surname = args.Surname,
-                        Password = args.Password,
-                        Email = args.Email
-                    };
-                    db.TblUsers.Add(user);
-                    db.SaveChanges();
+                    Name = args.Name,
+                    Surname = args.Surname,
+                    Password = args.Password,
+                    Email = args.Email
+                };
+                db.TblUsers.Add(user);
+                db.SaveChanges();
 
-                    eUser eUser = new eUser()
-                    {
-                        Name = args.Name,
-                        Surname = args.Surname,
-                        Password = args.Password,
-                        Email = args.Email
+                var eUser = new eUser()
+                {
+                    Name = args.Name,
+                    Surname = args.Surname,
+                    Password = args.Password,
+                    Email = args.Email
 
-                    };
-                    return new rUser { Value = eUser };
-                }
+                };
+                return new rUser { Value = eUser };
+
 
             }
             catch (Exception ex)
@@ -52,13 +50,10 @@ namespace Eltemtek.ToDoList.Dal.Account
         {
             try
             {
-                using (DbEntities db = new DbEntities())
-                {
-                    var user = db.TblUsers.Where(x => x.Id == args.Id).SingleOrDefault();
-                    db.TblUsers.Remove(user);
-                    db.SaveChanges();
-                    return new rUser();
-                }
+                var user = db.TblUsers.Where(x => x.Id == args.Id).SingleOrDefault();
+                db.TblUsers.Remove(user);
+                db.SaveChanges();
+                return new rUser();
             }
             catch (Exception ex)
             {
@@ -70,14 +65,11 @@ namespace Eltemtek.ToDoList.Dal.Account
         {
             try
             {
-                using (DbEntities db = new DbEntities())
-                {
-                    var user = db.TblUsers.Where(x => x.Id == args.Id).SingleOrDefault();
-                    user.Password = args.Password;
-                    db.TblUsers.Update(user);
-                    db.SaveChanges();
-                    return new rUser();
-                }
+                var user = db.TblUsers.Where(x => x.Id == args.Id).SingleOrDefault();
+                user.Password = args.Password;
+                db.TblUsers.Update(user);
+                db.SaveChanges();
+                return new rUser();
             }
             catch (Exception ex)
             {
@@ -92,11 +84,8 @@ namespace Eltemtek.ToDoList.Dal.Account
         {
             try
             {
-                using (DbEntities db = new DbEntities())
-                {
-                    var user = db.TblUsers.Where(x => x.Email == email).SingleOrDefault();
-                    return user == null ? true : false;
-                }
+                var user = db.TblUsers.Where(x => x.Email == email).SingleOrDefault();
+                return user == null ? true : false;
             }
             catch (Exception)
             {
@@ -108,20 +97,17 @@ namespace Eltemtek.ToDoList.Dal.Account
         {
             try
             {
-                using (DbEntities db = new DbEntities())
+                var user = db.TblUsers.Where(x => x.Email == args.Email && x.Password == args.Password).SingleOrDefault();
+                var eUser = new eUser()
                 {
-                    var user = db.TblUsers.Where(x => x.Email == args.Email && x.Password == args.Password).SingleOrDefault();
-                    var eUser = new eUser()
-                    {
-                        Id = user.Id,
-                        Email = user.Email
-                    };
-                    return new rUser() { Value = eUser};
-                }
+                    Id = user.Id,
+                    Email = user.Email
+                };
+                return new rUser() { Value = eUser };
             }
             catch (Exception)
             {
-                return new rUser() {Error=true, Message="dsa" };
+                return new rUser() { Error = true, Message = "dsa" };
             }
         }
 
@@ -131,10 +117,10 @@ namespace Eltemtek.ToDoList.Dal.Account
                     select new eUser()
                     {
                         Id = user.Id,
-                        Name=user.Name,
-                        Surname=user.Surname,
+                        Name = user.Name,
+                        Surname = user.Surname,
                         Email = user.Email,
-                        Password=user.Password
+                        Password = user.Password
                     });
         }
 

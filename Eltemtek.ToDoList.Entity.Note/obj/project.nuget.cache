@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y1gxRTMG31S0u5+LrsMXC+u1MOiQdGfpENOe5MR7V6UTK8TacdYWfYrDRZNAN5zFIIWpzob1QveOLMO+Lri53A==",
+  "dgSpecHash": "GXw8k7rS92dT38MjpQ+ZXK3Te84vljGyWUFM4+aHDYwI35oJyaT41SwRsyMDoIS0Y0a6UiT2ftzIpaoNxdaLBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Entity.Note\\Eltemtek.ToDoList.Entity.Note.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Entity.Note\\Eltemtek.ToDoList.Entity.Note.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

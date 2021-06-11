@@ -21,7 +21,7 @@ namespace Eltemtek.ToDoList.Api.Note.Controllers
 
 
         [HttpPost]
-        [Route("Insert")]
+        [Route("Add")]
         public rNote Add(pNote args)
         {
             args.UserId = Convert.ToInt32(HttpContext.Session.GetString("session"));

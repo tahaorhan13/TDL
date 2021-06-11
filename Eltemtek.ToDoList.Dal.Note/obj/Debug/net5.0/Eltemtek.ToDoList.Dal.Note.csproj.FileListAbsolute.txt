@@ -36,3 +36,22 @@ C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList
 C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.dll
 C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\ref\Eltemtek.ToDoList.Dal.Note.dll
 C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.deps.json
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\ref\Eltemtek.ToDoList.Dal.Note.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Account.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Note.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Note.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Account.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Db.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.AssemblyInfo.cs
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.csproj.CopyComplete
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\ref\Eltemtek.ToDoList.Dal.Note.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Dal.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.pdb

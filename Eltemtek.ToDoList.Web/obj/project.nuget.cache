@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8WmDE3viiSlP1Mk0Zzs7kfEcCXGxffqVQJJrnr3Ch9vOwgfdqTN3qClHyfZMEhZhCkt4QIZzO4mlMnbCVDZ1gA==",
+  "dgSpecHash": "QUoXbWEOyuR6L4KHtPKCe2SP1/OdFnoNlFuTAlwmheybN7uKss2+yTs5WJbdvVeD7842Yr/YOauR06vcszWqNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Web\\Eltemtek.ToDoList.Web.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Web\\Eltemtek.ToDoList.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

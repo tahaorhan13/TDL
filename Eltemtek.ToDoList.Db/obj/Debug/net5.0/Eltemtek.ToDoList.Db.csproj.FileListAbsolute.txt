@@ -43,3 +43,18 @@ C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList
 C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Db\obj\Debug\net5.0\ref\Eltemtek.ToDoList.Db.dll
 C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.pdb
 C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.genruntimeconfig.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\bin\Debug\net5.0\Eltemtek.ToDoList.Db.deps.json
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\bin\Debug\net5.0\Eltemtek.ToDoList.Db.runtimeconfig.json
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\bin\Debug\net5.0\Eltemtek.ToDoList.Db.runtimeconfig.dev.json
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\bin\Debug\net5.0\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\bin\Debug\net5.0\ref\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\bin\Debug\net5.0\Eltemtek.ToDoList.Db.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.AssemblyInfo.cs
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\ref\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.pdb
+C:\Users\hp\Desktop\GitHub\TDL\Eltemtek.ToDoList.Db\obj\Debug\net5.0\Eltemtek.ToDoList.Db.genruntimeconfig.cache

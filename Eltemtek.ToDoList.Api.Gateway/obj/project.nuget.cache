@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "np5wr3n5YuBF/VyK+R8XXhvwqX7542cMXpBmun11Kg7g6JRPSgoQBSWXasjCw1Bg1pRIKngblnNIzbBXKyZbKg==",
+  "dgSpecHash": "sqPuKJjhTZrbgcP3YrPRRcLZX1V/qWvkDmY0sujdy8ldvtAf1DVyl4wbZ9TQYesfBAnJq4jNFsj6DqZ/64Pv7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\ToDoList-Güncel - Kopya\\Eltemtek.ToDoList\\Eltemtek.ToDoList.Api.Gateway\\Eltemtek.ToDoList.Api.Gateway.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\GitHub\\TDL\\Eltemtek.ToDoList.Api.Gateway\\Eltemtek.ToDoList.Api.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
