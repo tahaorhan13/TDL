@@ -1,0 +1,31 @@
+﻿body {
+}
+
+#area-bar.k-toolbar {
+    border: none;
+}
+
+.chart {
+    background-color: #fff;  
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;
+}
+
+.col-md-4, col-md-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.m-t-51 {
+    margin-top: 51px;
+}
+
+.col-md-12:not(.toolbar) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item.dropdown a.nav-link {
+    cursor: pointer;
+}

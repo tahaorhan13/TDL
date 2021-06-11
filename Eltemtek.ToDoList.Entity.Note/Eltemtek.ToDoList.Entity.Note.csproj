@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eltemtek.ToDoList.Db\Eltemtek.ToDoList.Db.csproj" />
+    <ProjectReference Include="..\Eltemtek.ToDoList.Entity\Eltemtek.ToDoList.Entity.Account.csproj" />
+  </ItemGroup>
+
+</Project>

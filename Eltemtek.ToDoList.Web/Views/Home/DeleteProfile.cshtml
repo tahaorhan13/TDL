@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header card-header-primary">
+                        <h4 class="card-title">Create Profile</h4>
+                        <p class="card-category">Please Fill In The Requested Information</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label class="bmd-label-floating">Do You Want To Delete Your Account</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="btnUp" class="btn btn-primary pull-right" type="button">Delete Profile</button>
+
+                        @*<div id="register-link" class="text-right">
+                                <a class="d-block text-center mt-2 small" asp-controller="Home" asp-action="Login">Sign In</a>
+                            </div>*@
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $("#btnUp").on('click', function () {
+
+            var data1 =
+            {
+                Id: @ViewBag.Id
+            };
+
+            console.log(data1);
+
+            $.ajax({
+                type: "POST",
+                url: "https://localhost:44321/api/UserApi/Delete",
+                data: JSON.stringify(data1),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function () {
+                    console.log("success");
+                }
+            });
+            return false;
+        });
+
+
+</script>

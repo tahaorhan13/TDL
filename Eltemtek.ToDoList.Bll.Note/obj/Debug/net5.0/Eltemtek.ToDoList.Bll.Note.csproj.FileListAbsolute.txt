@@ -1,0 +1,42 @@
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.deps.json
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\ref\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Account.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Db.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Account.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.AssemblyInfo.cs
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.csproj.CopyComplete
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\ref\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.deps.json
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\ref\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Db.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Account.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Dal.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Db.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Account.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\bin\Debug\net5.0\Eltemtek.ToDoList.Entity.Note.pdb
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.AssemblyInfo.cs
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.csproj.CopyComplete
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\ref\Eltemtek.ToDoList.Bll.Note.dll
+C:\Users\hp\Desktop\ToDoList-Güncel - Kopya\Eltemtek.ToDoList\Eltemtek.ToDoList.Bll.Note\obj\Debug\net5.0\Eltemtek.ToDoList.Bll.Note.pdb

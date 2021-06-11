@@ -1,0 +1,161 @@
+﻿@{
+    Layout = null;
+
+}
+@using Eltemtek.ToDoList.Entity.Account.Auth
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/bundles/imgs/logo/book.ico">
+    <title>TDL.Login</title>
+    <!-- Custom CSS -->
+    <link href="@Url.VersionedContent("~/bundles/js/adminPro/dist/css/style.min.css")" rel="stylesheet" />
+</head>
+<body>
+    @*<form id="login-form">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header card-header-primary">
+                                    <h4 class="card-title">Login Profile</h4>
+                                    <p class="card-category">Please Fill In The Requested Information</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <label class="bmd-label-floating">E-Mail</label>
+                                                <input type="text" id="email" name="email" required="required" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <label class="bmd-label-floating">Password</label>
+                                                <input type="password" id="password" name="password" required="required" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary pull-right">Login Profile</button>
+                                    <div id="register-link" class="text-right">
+                                        <a class="d-block text-center mt-2 small" asp-controller="Home" asp-action="Register">Register</a>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <script>
+        $("#login-form").submit(function (e) {
+
+            var _email = $("#email").val();
+            var _password = $("#password").val();
+
+            var user = {
+                Email: _email,
+                Password: _password
+            };
+
+            $.ajax({
+                type: 'POST',
+                url: 'http://localhost:39794/api/User/Login',
+                data: JSON.stringify(user),
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success: function (data) {
+                    console.log('success');
+                    if (data) {
+                        window.location.href = "@Url.Action("NoteList", "Home")";
+                    }
+                },
+                error: function (data) {
+                    console.log('error');
+                }
+
+            });
+            return false;
+        });
+        </script>*@
+
+
+    <div class="main-wrapper">
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background:url(../bundles/imgs/backgru.png) no-repeat center center; background-size: cover;">
+        <div class="auth-box on-sidebar p-4 bg-white m-0">
+            <div id="loginform">
+                <div class="logo text-center">
+                    <span class="db">
+                        <img style="width: 80px;height: 80px;margin-bottom: 10px;" src="~/bundles/imgs/logo/tdl.ico" alt="logo" />
+                        <br />
+                        <strong style="font-size: 26px;">TDL</strong>
+                        <br />
+                        <span>Login</span>
+                    </span>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <br />
+                        <div class="form-horizontal mt-3 form-material" id="loginform">
+                            <div class="form-group mb-3">
+                                <div class="col-xs-12">
+                                    <input id="txtEmail" class="form-control" type="email" required="" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="col-xs-12">
+                                    <input id="txtPassword" class="form-control" type="password" required="" placeholder="Password">
+                                </div>
+                            </div>
+
+                            <div class="form-group text-center mt-3">
+                                <div class="col-xs-12">
+                                    <button data-button-login class="btn btn-info btn-lg btn-block waves-effect waves-light" type="submit">Log In</button>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="form-group text-center mt-3">
+                                <div class="col-xs-12">
+                                    <strong>
+                                        <a>&nbsp;TDL</a> © @DateTime.Now.Year.
+                                    </strong>
+                                    <span id="copyrightText"> All Rights Reserved.</span>
+                                    <b id="versionText">Version</b> <span id="version">1.0.0.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/jquery/dist/jquery.js")"></script>
+    @*<script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/popper.js/dist/esm/popper.min.js")"></script>*@
+    <script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/bootstrap/dist/js/bootstrap.min.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.account.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/vw/account/login.js")"></script>
+</body>
+</html>
+
+
+
+
+

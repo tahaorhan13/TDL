@@ -1,0 +1,60 @@
+[
+
+
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+
+    "inputFiles": [
+      "wwwroot/css/material-dashboard.css",
+      "wwwroot/css/demo.css"
+
+
+      //"wwwroot/css/material-dashboard-rtl.css"
+      //"wwwroot/css/material-dashboard.min.css"
+    ],
+
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+
+    "inputFiles": [
+      "wwwroot/js/jquery.min.js",
+      "wwwroot/js/popper.min.js",
+      "wwwroot/js/bootstrap-material-design.min.js",
+      "wwwroot/js/perfect-scrollbar.jquery.min.js",
+      "wwwroot/js/moment.min.js",
+      "wwwroot/js/sweetalert2.js",
+      "wwwroot/js/jquery.validate.min.js",
+      "wwwroot/js/jquery.bootstrap-wizard.js",
+      "wwwroot/js/bootstrap-selectpicker.js",
+      "wwwroot/js/bootstrap-datetimepicker.min.js",
+      "wwwroot/js/jquery.dataTables.min.js",
+      "wwwroot/js/bootstrap-tagsinput.js",
+      "wwwroot/js/jasny-bootstrap.min.js",
+      "wwwroot/js/fullcalendar.min.js",
+      "wwwroot/js/jquery-jvectormap.js",
+      "wwwroot/js/nouislider.min.js",
+      "wwwroot/js/arrive.js",
+      "wwwroot/js/chartist.min.js",
+      "wwwroot/js/bootstrap-notify.js",
+      "wwwroot/js/material-dashboard.js",
+      "wwwroot/js/demo.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+
+
+
+
+]
+
+

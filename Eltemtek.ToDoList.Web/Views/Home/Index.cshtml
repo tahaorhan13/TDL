@@ -1,0 +1,62 @@
+﻿
+<form method="post" id="add-form">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header card-header-primary">
+                            <h4 class="card-title ">Simple Table</h4>
+                            <p class="card-category"> Here is a subtitle for this table</p>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Title</label>
+                                        <input type="text" id="title" name="title" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Note</label>
+                                        <input type="text" id="note" name="note" class="form-control">
+                                    </div>
+                                </div>
+
+                                <button type="submit" id="add" name="add" class="btn btn-primary pull-right">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+    $("#add-form").submit(function (e) {
+
+        var _title = $("#title").val();
+        var _note = $("#note").val();
+
+        var data = {
+            Title: _title,
+            Note: _note,
+
+        };
+
+        $.ajax({
+            url: 'https://localhost:44321/api/NoteApi/Insert',
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            dataType: 'json',
+            success: function (data) {
+                alert(data.Value.id);
+            },
+
+        });
+    });
+</script>

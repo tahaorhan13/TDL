@@ -1,0 +1,139 @@
+﻿@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+@model rListNote
+@using Eltemtek.ToDoList.Entity.Note.Note;
+@using Eltemtek.ToDoList.Entity.Account.Auth;
+<html>
+<head>
+    <title>ToDoList.NoteList</title>
+
+</head>
+<body>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header card-header-primary">
+                            <h4 class="card-title ">Simple Table</h4>
+                            <p class="card-category"> Here is a subtitle for this table</p>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+
+                                <table id="tblNotlar" name="tblNotlar" class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>TİTLE</th>
+                                            <th>NOTE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var x in Model.Values.ToList())
+                                        {
+                                            <tr>
+                                                <td>@x.Noteid</td>
+                                                <td>@x.Title</td>
+                                                <td>@x.Note</td>
+                                                <td><a class="btn btn bg-danger btn1" data-id="@x.Noteid">Delete</a></td>
+                                                <td><a class="btn btn bg-success btn2" data-id="@x.Noteid" value="@x.Note">Update</a></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/jquery/dist/jquery.js")"></script>
+    @*<script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/popper.js/dist/esm/popper.min.js")"></script>*@
+    <script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/bootstrap/dist/js/bootstrap.min.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.account.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/vw/account/login.js")"></script>
+</body>
+</html>
+
+
+
+@*<script>
+
+        $(function () {
+            $("#tblNotlar").on("click", ".btn1", function () {
+                var data1 =
+                {
+                    NoteId: $(this).data("id"),
+                };
+                console.log(data1);
+                var btn = $(this);
+                $.ajax({
+                    type: "POST",
+                    url: "https://localhost:44321/api/NoteApi/Delete/",
+                    data: JSON.stringify(data1),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function () {
+                        btn.parent().parent().remove();
+                        console.log("success");
+                    }
+                });
+            });
+        });
+
+        $(function () {
+            $("#tblNotlar").on("click", ".btn2",async function () {
+                var data1 =
+                {
+                    NoteId: $(this).data("id"),
+                    Note: $(this).val(),
+                    UserId:@ViewBag.UserId
+                };
+
+                const { value: text } = await Swal.fire({
+                    input: 'textarea',
+                    inputValue: data1.Note,
+                    confirmButtonText: 'Update',
+                    showCancelButton: true,
+                    showConfirmButton: true
+                })
+
+                var data2 =
+                {
+                    NoteId: $(this).data("id"),
+                    Note: text,
+                    UserId:@ViewBag.UserId
+                };
+
+                var btn = $(this);
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://localhost:44321/api/NoteApi/Update/",
+                    data: JSON.stringify(data2),
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function () {
+                        /*btn.parent().parent().data();*/
+                        window.location.reload()
+                        console.log("success");
+                    }
+                });
+            });
+
+
+
+
+            });
+
+
+    </script>*@
+
