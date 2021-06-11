@@ -1,9 +1,9 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutNotMenu.cshtml";
 }
-
-
-<form method="post" id="register-form">
+@using Eltemtek.ToDoList.Entity.Account.Auth
+<html>
+<body>
     <div class="content">
         <div class="container-fluid">
             <div class="row">
@@ -19,29 +19,29 @@
                                 <div class="col-md-8">
                                     <div class="form-group">
                                         <label class="bmd-label-floating">Name</label>
-                                        <input type="text" id="name" name="name" required="required" class="form-control">
+                                        <input type="text" id="txtName" required="required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="form-group">
                                         <label class="bmd-label-floating">Surname</label>
-                                        <input type="text" id="surname" name="surname" required="required" class="form-control">
+                                        <input type="text" id="txtSurname" required="required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="form-group">
                                         <label class="bmd-label-floating">E-Mail</label>
-                                        <input type="email" id="email" name="email" required="required" class="form-control">
+                                        <input type="email" id="txtEmail" required="required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="form-group">
                                         <label class="bmd-label-floating">Password</label>
-                                        <input type="password" id="password" name="password" required="required" class="form-control">
+                                        <input type="password" id="txtPassword" required="required" class="form-control">
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" id="register" class="btn btn-primary pull-right">Create Profile</button>
+                            <button data-button-registers class="btn btn-primary pull-right" type="submit">Create Profile</button>
 
                             <div id="register-link" class="text-right">
                                 <a class="d-block text-center mt-2 small" asp-controller="Home" asp-action="Login">Sign In</a>
@@ -55,39 +55,47 @@
             </div>
         </div>
     </div>
-</form>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.account.js")"></script>
+    <script src="@Url.VersionedContent("~/bundles/js/app/vw/account/register.js")"></script>
+
+</body>
+</html>
 
 
-<script type="text/javascript">
-    
-    $("#register-form").submit(function (e) {
-        var message = "kayıt başarılı";
-        var _name = $("#name").val();
-        var _surname = $("#surname").val();
-        var _email = $("#email").val();
-        var _password = $("#password").val();
-        var data = {
-            Name: _name,
-            Surname: _surname,
-            Password: _password,
-            Email: _email
-        };
-        $.ajax({
-             
-            url: 'https://localhost:44321/api/UserApi/Insert',
-            type: 'POST',
-            data: JSON.stringify(data),
-            contentType: "application/json; charset=utf-8",
-            dataType: 'json',       
-            success : function(data) {
-                alert(data.Value.Id);
-            },
+
+
+@*<script type="text/javascript">
+
+        $("#register-form").submit(function (e) {
+            var message = "kayıt başarılı";
+            var _name = $("#name").val();
+            var _surname = $("#surname").val();
+            var _email = $("#email").val();
+            var _password = $("#password").val();
+            var data = {
+                Name: _name,
+                Surname: _surname,
+                Password: _password,
+                Email: _email
+            };
+            $.ajax({
+
+                url: 'http://localhost:39794/api/User/Add',
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success : function(data) {
+                    alert(data.Value.Id);
+                },
+
+            });
 
         });
-        
-    });
 
-</script>
+    </script>*@
 
 
 
