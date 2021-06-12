@@ -27,7 +27,6 @@ namespace Eltemtek.ToDoList.Api.Account.Controllers
             return user.Add(args);
         }
 
-
         [HttpPost]
         [Route("Update")]
         public rUser Update(pUser args)
