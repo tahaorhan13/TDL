@@ -1,5 +1,4 @@
-﻿using Eltemtek.ToDoList.Dal.Account;
-using Eltemtek.ToDoList.Db.DataAccess;
+﻿using Eltemtek.ToDoList.Db.DataAccess;
 using Eltemtek.ToDoList.Entity.Note.Note;
 using System;
 using System.Linq;

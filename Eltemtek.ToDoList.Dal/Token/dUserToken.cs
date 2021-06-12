@@ -4,10 +4,7 @@ using Eltemtek.ToDoList.Entity.Account;
 using Eltemtek.ToDoList.Entity.Account.User;
 using Eltemtek.ToDoList.Entity.Account.UserToken;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eltemtek.ToDoList.Dal.Account
 {

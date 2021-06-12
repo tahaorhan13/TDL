@@ -1,14 +1,9 @@
 ﻿using Eltemtek.ToDoList.Db.DataAccess;
-using Eltemtek.ToDoList.Entity.Account.Auth;
 using Eltemtek.ToDoList.Entity.Account.User;
-using Microsoft.VisualBasic.CompilerServices;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eltemtek.ToDoList.Dal.Account.Token
 {
