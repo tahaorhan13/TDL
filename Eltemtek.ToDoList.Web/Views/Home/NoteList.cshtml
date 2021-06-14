@@ -2,7 +2,7 @@
 
 @model rListNote
 @using Eltemtek.ToDoList.Entity.Note.Note;
-@using Eltemtek.ToDoList.Entity.Account.Auth;
+
 <html>
 <head>
     <title>ToDoList.NoteList</title>
@@ -30,7 +30,7 @@
                                             <th>NOTE</th>
                                         </tr>
                                     </thead>
-                                    @*<tbody>
+                                    <tbody>
                                         @foreach (var x in Model.Values.ToList())
                                         {
                                             <tr>
@@ -41,7 +41,7 @@
                                                 <td><a class="btn btn bg-success btn2" data-id="@x.Noteid" value="@x.Note">Update</a></td>
                                             </tr>
                                         }
-                                    </tbody>*@
+                                    </tbody>
                                 </table>
 
 
@@ -52,20 +52,12 @@
             </div>
         </div>
     </div>
-
-    <script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/jquery/dist/jquery.js")"></script>
-    @*<script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/popper.js/dist/esm/popper.min.js")"></script>*@
-    <script src="@Url.VersionedContent("~/bundles/js/adminPro/dist/js/libs/bootstrap/dist/js/bootstrap.min.js")"></script>
-    <script src="@Url.VersionedContent("~/bundles/js/app/app.js")"></script>
-    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.js")"></script>
-    <script src="@Url.VersionedContent("~/bundles/js/app/app.api.account.js")"></script>
-    <script src="@Url.VersionedContent("~/bundles/js/app/vw/account/login.js")"></script>
 </body>
 </html>
 
 
 
-@*<script>
+<script>
 
         $(function () {
             $("#tblNotlar").on("click", ".btn1", function () {
@@ -135,5 +127,5 @@
             });
 
 
-    </script>*@
+</script>
 

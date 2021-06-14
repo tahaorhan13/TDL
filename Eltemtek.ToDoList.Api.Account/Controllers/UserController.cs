@@ -1,7 +1,9 @@
 ﻿using Eltemtek.ToDoList.Bll.Account;
 using Eltemtek.ToDoList.Entity.Account.User;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace Eltemtek.ToDoList.Api.Account.Controllers
 {
@@ -15,7 +17,14 @@ namespace Eltemtek.ToDoList.Api.Account.Controllers
         public rUser Get(pbUser args)
         {
             bUser userD = new bUser();
-            return userD.Get(args);
+            var userId= userD.Get(args);
+            if (!String.IsNullOrEmpty(Convert.ToString(userId)))
+            {
+                HttpContext.Session.SetString("session", Convert.ToString(userId));
+                return userId;
+            }
+            else
+                return null;
         }
 
         [HttpPost]
